@@ -28,39 +28,4 @@ Após tudo ser configurado, o inicio do teste será feito automaticamente, no me
 
 ## 4. Passo - Lançamento de modelo
 
-A conclusão do treino gera um melhor modelo, que deve ser lançado e verificado os pontos de saída para o teste, a documentação proporcionou os seguintes parâmetros.
-
-```
- {
-   "Inputs": { 
-     "data": [
-       {
-         "day": 1,
-         "mnth": 1,   
-         "year": 2022,
-         "season": 2,
-         "holiday": 0,
-         "weekday": 1,
-         "workingday": 1,
-         "weathersit": 2, 
-         "temp": 0.3, 
-         "atemp": 0.3,
-         "hum": 0.3,
-         "windspeed": 0.3 
-       }
-     ]    
-   },   
-   "GlobalParameters": 1.0
- }
-
- ```
-
- E o resultado do teste foi o seguinte.
-
- ```
- {
-  "Results": [
-    361.07418320600806
-  ]
-}
-```
+A conclusão do treino gera um melhor modelo, que deve ser lançado e verificado os pontos de saída para o teste, dentre o resultados, estavam dados como comparativo de valores reais e dados previstos pela máquina, commo também um comparativo da diferença entre a média dos valores. Em geral, nos termos da própria documentação, o teste ocorreu de maneira correta. Para informações do parametro do teste, acessar o arquivo JSON.
